@@ -19,7 +19,7 @@ exists a `.csv` file with your scanner’s system specifications. If it does, st
 If you have a `.asc` file for your scanner, add it under `user_specifications/system_definitions/asc_files`. Make sure the name matches the `ascfile` field in the corresponding scanner's `.csv` file. 
 
 !!! info "`.asc` files"
-    You don't need an `.asc` file to compile sequences. However, if your sequence happens to result in too high stimulation, your sequence might not run on the scanner. 
+    You don't need an `.asc` file to compile sequences. However, if your sequence happens to result in too high PNS, your sequence might not run on the scanner. 
 
 ## 3. Set user definitions. 
 Open Matlab, navigate to the main OpenMRF folder. Run `install_OpenMRF.m`. The first time you run this script, this will create multiple pop-up windows

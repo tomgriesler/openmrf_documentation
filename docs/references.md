@@ -3,7 +3,7 @@ hide:
     - navigation
 ---
 
-Below is a (non-exhaustive) selection of papers central to this work. 
+Below is a (non-exhaustive) selection of papers central to this project. 
 
 ### Pulseq
 - Layton KJ, Kroboth S, Jia F, Littin S, Yu H, Leupold J, Nielsen JF, Stöcker T, Zaitsev M. Pulseq: A rapid and hardware-independent pulse sequence prototyping framework. Magn Reson Med. 2017 Apr;77(4):1544-1552. doi: 10.1002/mrm.26235. Epub 2016 Jun 7. PMID: 27271292.
