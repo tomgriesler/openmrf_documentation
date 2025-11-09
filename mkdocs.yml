@@ -3,8 +3,7 @@ site_url: https://tomgriesler.github.io/openmrf_documentation/
 repo_url: https://github.com/HarmonizedMRI/OpenMRF
 theme: 
   name: material
-  icon: 
-    logo: material/fingerprint
+  logo: assets/fingerprint.png
   favicon: assets/fingerprint.png
   # features:
   #   - navigation.footer
