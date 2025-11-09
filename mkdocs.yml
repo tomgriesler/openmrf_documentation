@@ -13,7 +13,7 @@ theme:
       primary: orange
       accent: indigo
       toggle:
-        icon: material/weather-night
+        icon: material/theme-light-dark
         name: Switch to dark mode
 
     # dark mode
@@ -21,7 +21,7 @@ theme:
       primary: orange
       accent: indigo
       toggle:
-        icon: material/weather-sunny
+        icon: material/theme-light-dark
         name: Switch to light mode
 
 markdown_extensions:
@@ -44,6 +44,8 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - md_in_html
+  - pymdownx.blocks.caption
 
 extra:
   social:

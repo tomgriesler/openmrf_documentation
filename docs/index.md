@@ -1,5 +1,7 @@
 # Welcome to OpenMRF
 
+![OpenMRF logo](assets/OpenMRF.png){align=left}
+
 Website under construction. 
 
 <!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org).
