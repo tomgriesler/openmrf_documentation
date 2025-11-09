@@ -11,6 +11,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - toc.integrate
+    - content.code.copy
   palette: 
     # light mode
     - scheme: default
@@ -67,3 +68,4 @@ copyright: Copyright &copy; 2025 Tom Griesler
 nav:
   - Home: index.md
   - Quickstart guide: quickstart.md
+  - Publications: publications.md
