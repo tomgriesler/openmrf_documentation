@@ -4,8 +4,8 @@ repo_url: https://github.com/HarmonizedMRI/OpenMRF
 repo_name: HarmonizedMRI/OpenMRF
 theme: 
   name: material
-  logo: assets/fingerprint.png
-  favicon: assets/fingerprint.png
+  logo: assets/fingerprint.svg
+  favicon: assets/fingerprint.svg
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -60,12 +60,19 @@ extra:
       name: Tom Griesler's GitHub
       link: https://github.com/tomgriesler
     - icon: fontawesome/regular/envelope
-      name: Email Tom Griesler
-      link: mailto:tomgr@med.umich.edu
+      name: Email Maximilian Gram and Tom Griesler
+      link: mailto:maximilian.gram@uni-wuerzburg.de,tomgr@med.umich.edu
+
+extra_css: 
+  - assets/extra.css
 
 copyright: Copyright &copy; 2025 Tom Griesler
 
 nav:
   - Home: index.md
-  - Quickstart guide: quickstart.md
+  - Quickstart Guide: quickstart.md
+  - Wiki: wiki.md
+  - Team: team.md
   - Publications: publications.md
+  - References: references.md
+  - FAQ: faq.md

@@ -1,0 +1,17 @@
+---
+hide: 
+    - navigation
+---
+
+### Maximilian Gram [:fontawesome-regular-envelope:](mailto:maximilian.gram@uni-wuerzburg.de)
+is a postdoctoral researcher at the University Hospital Würzburg. He received a B.Sc., M.Sc., and PhD in Physics from the University of Würzburg. 
+??? info "Fun Fact"
+    Maximilian's MR sequence design and problem solving skills far exceed his knowledge of German language intricacies. His sworn enemy is the "Genitiv". 
+
+### Tom Griesler [:fontawesome-regular-envelope:](mailto:tomgr@med.umich.edu)
+is a Biomedical Engineering PhD candidate at the University of Michigan. He received a B.Sc. from the Technical University of Darmstadt and an M.Sc. from the University of Würzburg, both in Physics. 
+??? info "Fun Fact"
+
+<!-- ### Jannik Stebani
+is a PhD candidate at the University of Würzburg. 
+??? info "Fun Fact" -->
