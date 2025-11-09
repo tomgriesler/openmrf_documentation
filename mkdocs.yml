@@ -1,5 +1,6 @@
 site_name: OpenMRF Documentation
-site_url: https://sitename.example
+site_url: https://tomgriesler.github.io/openmrf_documentation/
+repo_url: https://github.com/HarmonizedMRI/OpenMRF
 theme: 
   name: material
   icon: 
@@ -49,7 +50,15 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: simple/github
-      link: https://github.com/HarmonizedMRI/OpenMRF
+    - icon: fontawesome/brands/linkedin
+      name: LinkedIn
+      link: https://www.linkedin.com/in/tomgriesler/
+    - icon: fontawesome/brands/github
+      name: GitHub
+      link: https://github.com/tomgriesler
+    - icon: fontawesome/regular/envelope
+      name: Email
+      link: mailto:tomgr@med.umich.edu
+
 
 copyright: Copyright &copy; 2025 Tom Griesler

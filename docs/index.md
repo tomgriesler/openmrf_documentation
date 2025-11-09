@@ -1,4 +1,4 @@
-# Welcome to OpenMRF
+# Welcome to OpenMRF!
 
 ![OpenMRF logo](assets/OpenMRF.png){align=left}
 
