@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # :rocket: Quickstart Guide
 
 The following steps briefly outline how to set up OpenMRF, compile a basic sequence, and reconstruct parametric maps from the acquired data . 

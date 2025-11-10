@@ -9,9 +9,11 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.top
-    - toc.integrate
+    - navigation.top  
+    - navigation.indexes
+    # - toc.integrate
     - content.code.copy
+    - navigation.sections
   palette: 
     # light mode
     - scheme: default
@@ -71,7 +73,9 @@ copyright: Copyright &copy; 2025 Tom Griesler
 nav:
   - Home: index.md
   - Quickstart Guide: quickstart.md
-  - Wiki: wiki.md
+  - Wiki: # wiki/index.md
+    - Overview: wiki/index.md
+    - Trajectory Calibration: wiki/trajectory.md
   - Team: team.md
   - Publications: publications.md
   - References: references.md

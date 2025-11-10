@@ -1,6 +1,9 @@
 ---
+icon:
+    material/home
 hide: 
     - navigation
+    - toc
 ---
 
 !!! warning "Website under construction"
@@ -9,9 +12,14 @@ hide:
 
 <div style="text-align:center">
   <img src="assets/OpenMRF.png" alt="OpenMRF logo" width="700">
+  <br>
 </div>
 
-<div style="clear:both"></div>
+<!-- <div style="clear:both"></div>
+<br> -->
+
+<!-- [:rocket: Quickstart Guide](quickstart.md){.md-button} -->
+
 <br>
 
 # Welcome to the OpenMRF Documentation website! 

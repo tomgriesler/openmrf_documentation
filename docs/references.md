@@ -1,6 +1,7 @@
 ---
 hide: 
     - navigation
+    - toc
 ---
 
 Below is a (non-exhaustive) selection of papers central to this project. 

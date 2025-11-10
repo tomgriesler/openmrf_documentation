@@ -1,6 +1,7 @@
 ---
 hide: 
     - navigation
+    - toc
 ---
 
 ### Maximilian Gram [:fontawesome-regular-envelope:](mailto:maximilian.gram@uni-wuerzburg.de)
