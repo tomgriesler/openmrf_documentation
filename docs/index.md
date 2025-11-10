@@ -12,13 +12,15 @@ hide:
 
 <div style="text-align:center">
   <img src="assets/OpenMRF.png" alt="OpenMRF logo" width="700">
-  <br>
 </div>
 
-<!-- <div style="clear:both"></div>
-<br> -->
+<br>
 
-<!-- [:rocket: Quickstart Guide](quickstart.md){.md-button} -->
+<div class="center-buttons">
+  <a href="quickstart" class="md-button"> 🚀 Quickstart Guide</a>
+  <a href="wiki" class="md-button"> 📚 Wiki</a>
+  <a href="#citation" class="md-button"> 📝 Citation </a>
+</div>
 
 <br>
 

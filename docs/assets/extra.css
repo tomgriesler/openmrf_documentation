@@ -8,18 +8,11 @@
   border-bottom: 4px solid var(--md-accent-fg-color);
 }
 
-.md-button {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.md-typeset .md-button {
-  text-align: center;
-  display: block;
-}
-
-.md-typeset {
-  text-align: justify;
+.center-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
 }
 
 /* Increase site name font size */
