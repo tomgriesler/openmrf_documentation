@@ -19,7 +19,7 @@ hide:
 <div class="center-buttons">
   <a href="quickstart" class="md-button"> 🚀 Quickstart Guide</a>
   <a href="wiki" class="md-button"> 📚 Wiki</a>
-  <a href="#citation" class="md-button"> 📝 Citation </a>
+  <!-- <a href="#citation" class="md-button"> 📝 Citation </a> -->
 </div>
 
 <br>
