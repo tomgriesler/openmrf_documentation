@@ -61,7 +61,7 @@ extra:
     - icon: fontawesome/brands/github
       name: Tom Griesler's GitHub
       link: https://github.com/tomgriesler
-    - icon: fontawesome/regular/envelope
+    - icon: fontawesome/regular/envelope  
       name: Email Maximilian Gram and Tom Griesler
       link: mailto:maximilian.gram@uni-wuerzburg.de,tomgr@med.umich.edu
 
@@ -73,8 +73,9 @@ copyright: Copyright &copy; 2025 Tom Griesler
 nav:
   - Home: index.md
   - Quickstart Guide: quickstart.md
-  - Wiki: # wiki/index.md
+  - Wiki: 
     - Overview: wiki/index.md
+    - Python Setup: wiki/python.md
     - Trajectory Calibration: wiki/trajectory.md
   - Team: team.md
   - Publications: publications.md
