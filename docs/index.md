@@ -3,7 +3,7 @@ icon:
     material/home
 hide: 
     - navigation
-    - toc
+    - toc 
 ---
 
 !!! warning "Website under construction"

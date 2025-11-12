@@ -12,6 +12,7 @@ is a postdoctoral researcher at the University Hospital Würzburg. He received a
 ### Tom Griesler [:fontawesome-regular-envelope:](mailto:tomgr@med.umich.edu) [:material-linkedin:](https://www.linkedin.com/in/tomgriesler/)
 is a Biomedical Engineering PhD candidate at the University of Michigan. He received a B.Sc. from the Technical University of Darmstadt and an M.Sc. from the University of Würzburg, both in Physics. 
 ??? info "Fun Fact"
+    Coming soon!
 
 <!-- ### Jannik Stebani
 is a PhD candidate at the University of Würzburg. 
