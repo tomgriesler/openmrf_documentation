@@ -15,6 +15,10 @@
   margin-top: 1em;
 }
 
+.md-typeset {
+  text-align: justify;
+}
+
 /* Increase site name font size */
 /* .md-header__title { */
   /* font-size: 30px;   /*Adjust as needed */

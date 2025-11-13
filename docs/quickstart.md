@@ -43,6 +43,9 @@ used per default, unless you specify a different scanner in your cod
 Navigate to `main_sequences/fingerprinting` and open `pulseq_mrf.m`. At the beginnning of every sequence creation script, you will define five flags:
 
 - `flag_backup`: when set to 1, a `.seq` file and all corresponding backup files are saved in a subfolder in your specified backup path. When set to 0, nothing is saved. 
+!!! warning "Timestamps"
+    You can only create one sequence per minute with this flag active, otherwise the timestamps used in the naming convention would be ambiguous (more information [here](wiki/timestamps.md)).
+
 - `flag_report`: when set to 1, a timing check report will be printed to the command window. When set to 2, additional hardware checks will be performed (takes longer). 
 - `flag_pns`: when set to 1, a PNS simulation will be performed. Only works if you have a correctly named `.asc` file in the correct file location (see [here](#asc-info)). Per default, the PNS will be simulated for an axial slice. To change this default behavior, add a line 
 ```matlab
