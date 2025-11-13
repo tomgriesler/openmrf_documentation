@@ -76,6 +76,7 @@ nav:
   - Wiki: 
     - Overview: wiki/index.md
     - Python Setup: wiki/python.md
+    - Scanner selection: wiki/scanner.md
     - Timestamps: wiki/timestamps.md
     - Trajectory Calibration: wiki/trajectory.md
   - Team: team.md

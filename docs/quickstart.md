@@ -18,7 +18,7 @@ Navigate to `user_specifications/system_definitions` and check whether there
 exists a `.csv` file with your scanner’s system specifications. If it does, still open it and double check that the specifications listed are accurate. If it doesn’t, create a file for your scanner using one of the existing files as a template, and save it in the same location using the same naming convention.
 
 !!! warning "Warning"
-    Please be sure to double check your system specifications. Running Pulseq sequences that are compiled for a different gradient system can cause permanent damage. 
+    Please be sure to double check your system specifications. Running Pulseq sequences that are compiled for a different gradient system can damage your scanner. 
 
 <a id='asc-info'></a>
 If you have a `.asc` file for your scanner, add it under `user_specifications/system_definitions/asc_files`. Make sure the name matches the `ascfile` field in the corresponding scanner's `.csv` file. 
@@ -27,22 +27,26 @@ If you have a `.asc` file for your scanner, add it under `user_specifications/sy
     You don't need an `.asc` file to compile sequences. However, if your sequence happens to result in too high PNS, your sequence might not run on the scanner. 
 
 ## 3. Set user definitions. 
-Open Matlab, navigate to the main OpenMRF folder. Run `install_OpenMRF.m`. The first time you run this script, this will create multiple pop-up windows
-prompting you to enter your user information:
+Open Matlab, navigate to the main OpenMRF folder. Run `install_OpenMRF.m`. 
+
+!!! info "install_OpenMRF.m"
+    Every time you reopen Matlab, you will need to run this script first in order to be able to run any other scripts. However, after the first time, it doesn't require any user input. 
+    
+The first time you run this script, this will create multiple pop-up windows prompting you to enter your user information:
 
 - Username: Used to sign sequences you create. Can be a combination of your first and last name, for example. Will show up in the filename of all sequences you create. 
 - Lab: Will be stored in the backup information for all sequences you create. If your lab isn’t listed, select “Other” and enter your affiliation manually. 
 - Path to backup data: This is where all your backup data will be stored. Every time you write a sequence, a subfolder will be created here containing the .seq file needed to run the sequence on the scanner, as well as backup information necessary for reconstruction. 
-- Default MRI scanner: the hardware limitations of this scanner will be
-used per default, unless you specify a different scanner in your cod
-
-!!! info "install_OpenMRF.m"
-    Every time you reopen Matlab, you will need to run this script first in order to be able to run any other scripts. However, after the first time, it doesn't require any user input. 
+- Default MRI scanner: the hardware limitations of this scanner will be used per default, unless you specify a different scanner in your code. 
+!!! info "Scanner selection"
+    Every time you compile a sequence, the currently selected scanner specifications will be printed to the terminal. If the variable `pulseq_scanner` is not specified before `pulseq_init` in your sequence creation script, your default scanner will be automatically selected. More information [here](wiki/scanner.md).
 
 ## 4. Compile a test sequence. 
 Navigate to `main_sequences/fingerprinting` and open `pulseq_mrf.m`. At the beginnning of every sequence creation script, you will define five flags:
 
 - `flag_backup`: when set to 1, a `.seq` file and all corresponding backup files are saved in a subfolder in your specified backup path. When set to 0, nothing is saved. 
+!!! info "`flag_backup=2`;"
+    You may encounter comments indicating that setting `flag_backup=2` results in backing up and sending the `.seq` file. This functionality is specific to the Experimental Physics 5 group at the University of Würzburg - please just ignore. 
 !!! warning "Timestamps"
     You can only create one sequence per minute with this flag active, otherwise the timestamps used in the naming convention would be ambiguous (more information [here](wiki/timestamps.md)).
 
