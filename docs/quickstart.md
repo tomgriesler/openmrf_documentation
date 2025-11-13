@@ -46,7 +46,7 @@ Navigate to `main_sequences/fingerprinting` and open `pulseq_mrf.m`. At the begi
 
 - `flag_backup`: when set to 1, a `.seq` file and all corresponding backup files are saved in a subfolder in your specified backup path. When set to 0, nothing is saved. 
 !!! info "`flag_backup=2`;"
-    You may encounter comments indicating that setting `flag_backup=2` results in backing up and sending the `.seq` file. This functionality is specific to the Experimental Physics 5 group at the University of Würzburg - please just ignore. 
+    You may encounter comments indicating that setting `flag_backup=2` results in backing up and sending the `.seq` file. This functionality is specific to the Experimental Physics 5 group at the University of Würzburg and won't work outside of their network - please just ignore. 
 !!! warning "Timestamps"
     You can only create one sequence per minute with this flag active, otherwise the timestamps used in the naming convention would be ambiguous (more information [here](wiki/timestamps.md)).
 
