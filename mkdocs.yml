@@ -1,12 +1,19 @@
 site_name: OpenMRF Documentation
-site_url: https://sitename.example
+site_url: https://tomgriesler.github.io/openmrf_documentation/
+repo_url: https://github.com/HarmonizedMRI/OpenMRF
+repo_name: HarmonizedMRI/OpenMRF
 theme: 
   name: material
-  icon: 
-    logo: material/fingerprint
-  favicon: assets/fingerprint.png
-  # features:
-  #   - navigation.footer
+  logo: assets/fingerprint.svg
+  favicon: assets/fingerprint.svg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top  
+    - navigation.indexes
+    # - toc.integrate
+    - content.code.copy
+    - navigation.sections
   palette: 
     # light mode
     - scheme: default
@@ -15,7 +22,6 @@ theme:
       toggle:
         icon: material/theme-light-dark
         name: Switch to dark mode
-
     # dark mode
     - scheme: slate
       primary: orange
@@ -49,7 +55,31 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: simple/github
-      link: https://github.com/HarmonizedMRI/OpenMRF
+    - icon: fontawesome/brands/linkedin
+      name: Tom Griesler's LinkedIn
+      link: https://www.linkedin.com/in/tomgriesler/
+    - icon: fontawesome/brands/github
+      name: Tom Griesler's GitHub
+      link: https://github.com/tomgriesler
+    - icon: fontawesome/regular/envelope  
+      name: Email Maximilian Gram and Tom Griesler
+      link: mailto:maximilian.gram@uni-wuerzburg.de,tomgr@med.umich.edu
+
+extra_css: 
+  - assets/extra.css
 
 copyright: Copyright &copy; 2025 Tom Griesler
+
+nav:
+  - Home: index.md
+  - Quickstart Guide: quickstart.md
+  - Wiki: 
+    - Overview: wiki/index.md
+    - Python Setup: wiki/python.md
+    - Scanner selection: wiki/scanner.md
+    - Timestamps: wiki/timestamps.md
+    - Trajectory Calibration: wiki/trajectory.md
+  - Team: team.md
+  - Publications: publications.md
+  - References: references.md
+  - FAQ: faq.md
