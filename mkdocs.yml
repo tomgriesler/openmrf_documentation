@@ -52,6 +52,8 @@ markdown_extensions:
   - pymdownx.details
   - md_in_html
   - pymdownx.blocks.caption
+  - pymdownx.arithmatex:
+      generic: true
 
 extra:
   social:
@@ -71,18 +73,25 @@ extra:
 extra_css: 
   - assets/extra.css
 
-copyright: Copyright &copy; 2025 Tom Griesler
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+copyright: Website &copy; 2025 Tom Griesler
 
 nav:
   - Home: index.md
   - Quickstart Guide: quickstart.md
   - Wiki: 
+    - Modules: wiki/modules.md
+    - Noise Prescans: wiki/noise_prescans.md
     - Overview: wiki/index.md
     - Python Setup: wiki/python.md
     - Scanner selection: wiki/scanner.md
+    - Spiral Single Parameter Mapping: wiki/spiral_mapping.md
     - Timestamps: wiki/timestamps.md
     - Trajectory Calibration: wiki/trajectory.md
+  - Troubleshooting: troubleshoot.md
   - Team: team.md
   - Publications: publications.md
   - References: references.md
-  - FAQ: faq.md
+  # - FAQ: faq.md
