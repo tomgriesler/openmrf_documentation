@@ -57,7 +57,7 @@ pns_orientation = 'coronal';
 
 ```
 !!! info "PNS Simulation"
-    Even when the simulated PNS is under 100%, your sequence might not run on the scanner. Based on our experience we recommend staying under 85%. PNS can be reduced by adjusting timings or gradient limitations. 
+    Even when the simulated PNS is under 100%, your sequence might not run on the scanner. Based on our experience we recommend staying under 85%. PNS can be reduced by adjusting the gradient slew rate. More information [here](troubleshoot.md#stimulation-limit-exceeded). 
 - `flag_sound`: when set to 1, the sound resulting from gradient vibrations when running your sequence will be simulated and played by your default speaker. 
 - `flag_mrf`: when set to 1, an MRF dictionary is created based on your sequence, allowing you to confirm that your sequence creates your intended signal evolutions. 
 
