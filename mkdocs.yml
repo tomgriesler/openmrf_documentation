@@ -2,7 +2,7 @@ site_name: OpenMRF Documentation
 site_url: https://tomgriesler.github.io/openmrf_documentation/
 repo_url: https://github.com/HarmonizedMRI/OpenMRF
 repo_name: HarmonizedMRI/OpenMRF
-theme: 
+theme:
   name: material
   logo: assets/fingerprint.svg
   favicon: assets/fingerprint.svg
@@ -11,24 +11,22 @@ theme:
     - navigation.tabs.sticky
     - navigation.top  
     - navigation.indexes
-    # - toc.integrate
     - content.code.copy
     - navigation.sections
-  palette: 
-    # light mode
+  palette:
     - scheme: default
       primary: orange
       accent: indigo
       toggle:
         icon: material/theme-light-dark
         name: Switch to dark mode
-    # dark mode
     - scheme: slate
       primary: orange
       accent: indigo
       toggle:
         icon: material/theme-light-dark
         name: Switch to light mode
+  custom_dir: overrides
 
 markdown_extensions:
   - attr_list
@@ -56,9 +54,6 @@ markdown_extensions:
       generic: true
 
 extra:
-  analytics:
-    provider: goatcounter
-    server: https://tomgr.goatcounter.com
   social:
     - icon: fontawesome/brands/linkedin
       name: Tom Griesler's LinkedIn
