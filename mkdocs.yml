@@ -54,6 +54,9 @@ markdown_extensions:
   - pymdownx.blocks.caption
 
 extra:
+  analytics:
+    provider: goatcounter
+    server: https://tomgr.goatcounter.com
   social:
     - icon: fontawesome/brands/linkedin
       name: Tom Griesler's LinkedIn
@@ -64,9 +67,9 @@ extra:
     - icon: fontawesome/regular/envelope  
       name: Email Maximilian Gram and Tom Griesler
       link: mailto:maximilian.gram@uni-wuerzburg.de,tomgr@med.umich.edu
-  head:
-    - <script data-goatcounter="https://tomgr.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+  # head:
+  #   - <script data-goatcounter="https://tomgr.goatcounter.com/count"
+  #       async src="//gc.zgo.at/count.js"></script>
 
 extra_css: 
   - assets/extra.css
