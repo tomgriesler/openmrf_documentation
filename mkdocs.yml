@@ -26,7 +26,6 @@ theme:
       toggle:
         icon: material/theme-light-dark
         name: Switch to light mode
-  custom_dir: overrides
 
 markdown_extensions:
   - attr_list
@@ -64,9 +63,6 @@ extra:
     - icon: fontawesome/regular/envelope  
       name: Email Maximilian Gram and Tom Griesler
       link: mailto:maximilian.gram@uni-wuerzburg.de,tomgr@med.umich.edu
-  # head:
-  #   - <script data-goatcounter="https://tomgr.goatcounter.com/count"
-  #       async src="//gc.zgo.at/count.js"></script>
 
 extra_css: 
   - assets/extra.css
@@ -74,7 +70,7 @@ extra_css:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-copyright: Website &copy; 2025 Tom Griesler
+copyright: Copyright &copy; 2025 Tom Griesler
 
 nav:
   - Home: index.md
