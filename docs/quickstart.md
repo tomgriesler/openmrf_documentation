@@ -5,7 +5,7 @@ hide:
 
 # :rocket: Quickstart Guide
 
-The following steps briefly outline how to set up OpenMRF, compile a basic sequence, and reconstruct parametric maps from the acquired data . 
+The following steps briefly outline how to set up OpenMRF, compile a basic sequence, and reconstruct parametric maps from the acquired data.
 
 ## 1. Fork and clone the repository. 
 Go to <https://github.com/HarmonizedMRI/OpenMRF> and fork the repository. Then, open a terminal, navigate to the location where you want your code to live, and run 
@@ -41,8 +41,11 @@ The first time you run this script, this will create multiple pop-up windows pro
 !!! info "Scanner selection"
     Every time you compile a sequence, the currently selected scanner specifications will be printed to the terminal. If the variable `pulseq_scanner` is not specified before `pulseq_init` in your sequence creation script, your default scanner will be automatically selected. More information [here](wiki/scanner.md).
 
-## 4. Compile a test sequence. 
-Navigate to `main_sequences/fingerprinting` and open `pulseq_mrf.m`. At the beginnning of every sequence creation script, you will define five flags:
+## 4. Take a look around! 
+OpenMRF is a comprehensive framework with many different parts to it. For getting started, we strongly recommend taking a closer look at all the different examples in the `main_sequences` folder, and especially at the example MRF sequences in `main_sequences/fingerprinting`. In every subfolder, you will find code to compile the respective sequence (usually starts with `pulseq_....m`) as well as the corresponding code for reconstruction of the acquired raw data (usually starts with `reco_....m`). 
+
+## 5. Compile a test sequence. 
+Navigate to `main_sequences/fingerprinting` and open `pulseq_mrf.m`. At the beginning of every sequence creation script, you will define five flags:
 
 - `flag_backup`: when set to 1, a `.seq` file and all corresponding backup files are saved in a subfolder in your specified backup path. When set to 0, nothing is saved. 
 !!! info "`flag_backup=2`;"
@@ -61,7 +64,7 @@ pns_orientation = 'coronal';
 - `flag_sound`: when set to 1, the sound resulting from gradient vibrations when running your sequence will be simulated and played by your default speaker. 
 - `flag_mrf`: when set to 1, an MRF dictionary is created based on your sequence, allowing you to confirm that your sequence creates your intended signal evolutions. 
 
-## 5. Acquire data.
+## 6. Acquire data.
 For more information on how to run `.seq` files on your scanner, see <https://pulseq.github.io/index.html>. Export the raw data as a `.dat` file. 
 
 !!! danger 
@@ -70,8 +73,8 @@ For more information on how to run `.seq` files on your scanner, see <https://pu
 !!! tip "`Timing and Flip Angles` on Siemens scanners"
     If you are using a Siemens system, make sure to set `Timing and Flip Angles` in the `Sequence/Special` tab to `strict`. Otherwise, all RF events might be rescaled if the peak RF voltage exceeds your scanner's limit. 
 
-## 6. Reconstruct the data and create parametric maps.
+## 7. Reconstruct the data and create parametric maps.
 In Matlab, navigate to `main_sequences/fingerprinting` and open `reco_mrf.m`. Change the variables `study_path` and `study_name_mrf` to point to your acquired data. For now, we are not correcting for trajectory imperfections, so delete or comment the line defining `study_name_traj` - in this case, the nominal trajectory will be used for reconstruction. After having updated the paths, run the file. Once the reconstruction is complete, a figure showing the final parametric maps should appear. 
 
-## 7. Your feedback matters! 
+## 8. Your feedback matters! 
 Please help us improve OpenMRF. If you encounter any bugs, issues, or limitations - send us an [email](mailto:maximilian.gram@uni-wuerzburg.de,tomgr@umich.edu) or create an issue on the [github page](https://github.com/HarmonizedMRI/OpenMRF/issues)! 

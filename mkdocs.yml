@@ -57,9 +57,9 @@ extra:
     - icon: fontawesome/brands/linkedin
       name: Tom Griesler's LinkedIn
       link: https://www.linkedin.com/in/tomgriesler/
-    - icon: fontawesome/brands/github
-      name: Tom Griesler's GitHub
-      link: https://github.com/tomgriesler
+    # - icon: fontawesome/brands/github
+    #   name: Tom Griesler's GitHub
+    #   link: https://github.com/tomgriesler
     - icon: fontawesome/regular/envelope  
       name: Email Maximilian Gram and Tom Griesler
       link: mailto:maximilian.gram@uni-wuerzburg.de,tomgr@med.umich.edu
@@ -76,9 +76,11 @@ nav:
   - Home: index.md
   - Quickstart Guide: quickstart.md
   - Wiki: 
-    - Modules: wiki/modules.md
-    - Noise Prescans: wiki/noise_prescans.md
     - Overview: wiki/index.md
+    - Cardiac Triggering: wiki/cardiac_triggering.md
+    - Custom Trajectories: wiki/custom_trajectories.md
+    - Modules: wiki/modules.md
+    - Noise Prewhitening: wiki/noise_prewhitening.md
     - Python Setup: wiki/python.md
     - Scanner selection: wiki/scanner.md
     - Spiral Single Parameter Mapping: wiki/spiral_mapping.md
