@@ -45,7 +45,7 @@ OpenMRF is a modular and vendor-neutral framework for Magnetic Resonance Fingerp
 - `user_specifications/`: User specific definitions (automatically generated via `install_OpenMRF.m`), MRI system specifications (create a `.csv` file for your system's gradient limits and timings) and optionally your python cmd specifications for `sigpy` pulses.
 
 ## System Requirements
-- **MATLAB** tested with R2024b on Win11 and Ubuntu 22.04.
+- **MATLAB** tested with R2024b and R2025a on Win11 and Ubuntu 22.04.
 - **Python** with the `sigpy` package — required for designing SLR and adiabatic RF pulses (e.g., BIR-4). More information on the Python setup can be found [here](wiki/python.md). 
 
 ## Citation

@@ -79,6 +79,7 @@ nav:
     - Overview: wiki/index.md
     - Cardiac Triggering: wiki/cardiac_triggering.md
     - Custom Trajectories: wiki/custom_trajectories.md
+    - Dictionary Generation: wiki/dictionary_generation.md
     - Modules: wiki/modules.md
     - Noise Prewhitening: wiki/noise_prewhitening.md
     - Python Setup: wiki/python.md
