@@ -26,7 +26,7 @@ The source code for the following modules can be found in `include_pulseq_toolbo
 | EPI | <u>E</u>cho <u>P</u>lanar <u>I</u>maging ||
 | PRESS | <u>P</u>oint <u>Res</u>olved <u>S</u>pectroscopy ||
 | RAD | <u>Rad</u>ial ||
-| SPI | <u>Spi</u>ral | Used for spiral and custom non-Cartesian trajectories. |
+| SPI | <u>Spi</u>ral | Used for spiral and custom non-Cartesian trajectories. More information [here](custom_trajectories.md). |
 | SPITSE | <u>Spi</u>ral <u>T</u>urbo <u>S</u>pin <u>E</u>cho ||
 | TSE | <u>T</u>urbo <u>S</u>pin <u>E</u>cho | |
 | UTE | <u>U</u>ltra short <u>TE</u>||
