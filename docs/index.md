@@ -7,6 +7,7 @@ hide:
 ---
 
 !!! warning "Website under active construction"
+    Please take a look around and explore the OpenMRF documentation. Just be aware that this is work in progress and more detailed information on certain aspects of the framework will be added soon. 
 
 <br>
 
