@@ -13,7 +13,7 @@ The source code for the following modules can be found in `include_pulseq_toolbo
 | CRUSH | <u>Crush</u>er ||
 | FAT | <u>Fat</u> suppression | |
 | INV | <u>Inv</u>ersion | |
-| MLEV | <u>M</u>alcolm <u>Lev</u>itt | Defines a T2\(\rho\) preparation featuring Malcolm Levitt phase cycling. |
+| MLEV | <u>M</u>alcolm <u>Lev</u>itt | Defines a T2\(\rho\) preparation featuring Malcolm Levitt phase cycling. Can also be used as an alternative to the T2 preparation module for robust T2 encoding - more information [here](mlev_params.md).|
 | SAT | <u>Sat</u>uration | |
 | SL | <u>S</u>pin <u>L</u>ock | Defines a continuous wave spin lock module for T1\(\rho\) preparation. |
 | T2 | <u>T2</u> preparation | |

@@ -7,4 +7,4 @@ The SPI readout module offers three options for the design of k-space trajectori
     Importing custom trajectories is an experimental feature - use with care, desired performance cannot be guaranteed. Will likely be updated in future versions. 
 
 [^1]: KT Block. Spiralförmige Abtastung des k-Raumes bei der Magnetresonanz-Tomographie. Diploma thesis, Georg-August-Universität zu Göttingen. 2004. [https://www.mpinat.mpg.de/597698/tblock_diploma.pdf](https://www.mpinat.mpg.de/597698/tblock_diploma.pdf) (accessed November 30, 2025). 
-[^2]: Unfortunately, the original toolbox cannot be found anymore under the former link [http://mrsrl.stanford.edu/~brian/vdspiral/](http://mrsrl.stanford.edu/~brian/vdspiral/).
+[^2]: The original toolbox used to be available under [http://mrsrl.stanford.edu/~brian/vdspiral/](http://mrsrl.stanford.edu/~brian/vdspiral/), but this link seems to not be active anymore. Parts of it can be found in [https://github.com/mribri999/MRSignalsSeqs/tree/master/Matlab](https://github.com/mribri999/MRSignalsSeqs/tree/master/Matlab). 

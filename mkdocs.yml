@@ -71,7 +71,7 @@ extra_css:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-copyright: Copyright &copy; 2025 Tom Griesler
+copyright: Copyright &copy; 2026 Tom Griesler
 
 nav:
   - Home: index.md
@@ -81,9 +81,10 @@ nav:
     - Cardiac Triggering: wiki/cardiac_triggering.md
     - Custom Trajectories: wiki/custom_trajectories.md
     - Dictionary Generation: wiki/dictionary_generation.md
+    - MLEV Parameters: wiki/mlev_params.md
     - Modules: wiki/modules.md
     - Noise Prewhitening: wiki/noise_prewhitening.md
-    - Python Setup: wiki/python.md
+    # - Python Setup: wiki/python.md
     - Scanner selection: wiki/scanner.md
     - Spiral Single Parameter Mapping: wiki/spiral_mapping.md
     - Timestamps: wiki/timestamps.md
