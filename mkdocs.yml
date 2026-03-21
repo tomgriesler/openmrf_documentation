@@ -1,7 +1,5 @@
-site_name: OpenMRF Documentation
+site_name: OpenMRF Documentation (legacy)
 site_url: https://tomgriesler.github.io/openmrf_documentation/
-repo_url: https://github.com/HarmonizedMRI/OpenMRF
-repo_name: HarmonizedMRI/OpenMRF
 theme:
   name: material
   logo: assets/fingerprint.svg
@@ -58,9 +56,6 @@ extra:
     - icon: fontawesome/brands/linkedin
       name: Tom Griesler's LinkedIn
       link: https://www.linkedin.com/in/tomgriesler/
-    # - icon: fontawesome/brands/github
-    #   name: Tom Griesler's GitHub
-    #   link: https://github.com/tomgriesler
     - icon: fontawesome/regular/envelope  
       name: Email Maximilian Gram and Tom Griesler
       link: mailto:maximilian.gram@uni-wuerzburg.de,tomgr@med.umich.edu
@@ -75,22 +70,3 @@ copyright: Copyright &copy; 2026 Tom Griesler
 
 nav:
   - Home: index.md
-  - Quickstart Guide: quickstart.md
-  - Wiki: 
-    - Overview: wiki/index.md
-    - Cardiac Triggering: wiki/cardiac_triggering.md
-    - Custom Trajectories: wiki/custom_trajectories.md
-    - Dictionary Generation: wiki/dictionary_generation.md
-    - MLEV Parameters: wiki/mlev_params.md
-    - Modules: wiki/modules.md
-    - Noise Prewhitening: wiki/noise_prewhitening.md
-    # - Python Setup: wiki/python.md
-    - Scanner selection: wiki/scanner.md
-    - Spiral Single Parameter Mapping: wiki/spiral_mapping.md
-    - Timestamps: wiki/timestamps.md
-    - Trajectory Calibration: wiki/trajectory.md
-  - Troubleshooting: troubleshoot.md
-  - Team: team.md
-  - Publications: publications.md
-  - References: references.md
-  # - FAQ: faq.md
