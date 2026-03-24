@@ -7,4 +7,4 @@ hide:
     - title
 ---
 
-This website has moved - please go to <https://openmrf.github.io/documentation/>. 
+This website has moved - please go to <https://openmrf.org/>. 
